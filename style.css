@@ -1,0 +1,75 @@
+
+body{ font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    margin: 0;
+
+} 
+.card{
+      width: 300px;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      position: relative;
+}
+.food{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.prom{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 5px 8px;
+    font-size: 10px;
+    border-radius: 4px;
+
+}
+.dis{
+    background: #0077ff;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    padding-right: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.name{
+       padding: 15px;
+}
+.name h2{
+    font-size: 18px;
+    margin: 0;
+}
+.name p{
+    color: gray;
+    margin: 5px 0 10px;
+}
+.tim{
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     background: white;
+     padding: 5px;
+     border-radius: 4px;
+     font-size: 14px;
+     font-weight: bold;
+}
+.safety{
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 10px;
+    font-size: 12px;
+}
+.safe{
+    margin-right: 5px;
+    position: relative;
+}
